@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\projects\\C#\\New Accounting Project\\Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D66EC3-C73B-C77F-1B5F-7405E3DD9D04}|AccountingSystem.API\\AccountingSystem.API.csproj|d:\\projects\\c#\\new accounting project\\project\\accountingsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5D66EC3-C73B-C77F-1B5F-7405E3DD9D04}|AccountingSystem.API\\AccountingSystem.API.csproj|solutionrelative:accountingsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408A926B-B5FF-E161-540C-EA007F7441CA}|AccountingSystem.Infrastructure\\AccountingSystem.Infrastructure.csproj|d:\\projects\\c#\\new accounting project\\project\\accountingsystem.infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408A926B-B5FF-E161-540C-EA007F7441CA}|AccountingSystem.Infrastructure\\AccountingSystem.Infrastructure.csproj|solutionrelative:accountingsystem.infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D66EC3-C73B-C77F-1B5F-7405E3DD9D04}|AccountingSystem.API\\AccountingSystem.API.csproj|d:\\projects\\c#\\new accounting project\\project\\accountingsystem.api\\accountingsystem.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D5D66EC3-C73B-C77F-1B5F-7405E3DD9D04}|AccountingSystem.API\\AccountingSystem.API.csproj|solutionrelative:accountingsystem.api\\accountingsystem.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D66EC3-C73B-C77F-1B5F-7405E3DD9D04}|AccountingSystem.API\\AccountingSystem.API.csproj|d:\\projects\\c#\\new accounting project\\project\\accountingsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5D66EC3-C73B-C77F-1B5F-7405E3DD9D04}|AccountingSystem.API\\AccountingSystem.API.csproj|solutionrelative:accountingsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408A926B-B5FF-E161-540C-EA007F7441CA}|AccountingSystem.Infrastructure\\AccountingSystem.Infrastructure.csproj|d:\\projects\\c#\\new accounting project\\project\\accountingsystem.infrastructure\\accountingsystem.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{408A926B-B5FF-E161-540C-EA007F7441CA}|AccountingSystem.Infrastructure\\AccountingSystem.Infrastructure.csproj|solutionrelative:accountingsystem.infrastructure\\accountingsystem.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountingSystem.API.csproj",
+              "DocumentMoniker": "D:\\projects\\C#\\New Accounting Project\\Project\\AccountingSystem.API\\AccountingSystem.API.csproj",
+              "RelativeDocumentMoniker": "AccountingSystem.API\\AccountingSystem.API.csproj",
+              "ToolTip": "D:\\projects\\C#\\New Accounting Project\\Project\\AccountingSystem.API\\AccountingSystem.API.csproj",
+              "RelativeToolTip": "AccountingSystem.API\\AccountingSystem.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-22T18:05:48.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\projects\\C#\\New Accounting Project\\Project\\AccountingSystem.API\\Program.cs",
+              "RelativeDocumentMoniker": "AccountingSystem.API\\Program.cs",
+              "ToolTip": "D:\\projects\\C#\\New Accounting Project\\Project\\AccountingSystem.API\\Program.cs",
+              "RelativeToolTip": "AccountingSystem.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T18:00:04.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountingSystem.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\projects\\C#\\New Accounting Project\\Project\\AccountingSystem.Infrastructure\\AccountingSystem.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "AccountingSystem.Infrastructure\\AccountingSystem.Infrastructure.csproj",
+              "ToolTip": "D:\\projects\\C#\\New Accounting Project\\Project\\AccountingSystem.Infrastructure\\AccountingSystem.Infrastructure.csproj",
+              "RelativeToolTip": "AccountingSystem.Infrastructure\\AccountingSystem.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-22T17:56:07.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\projects\\C#\\New Accounting Project\\Project\\AccountingSystem.Infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AccountingSystem.Infrastructure\\AppDbContext.cs",
+              "ToolTip": "D:\\projects\\C#\\New Accounting Project\\Project\\AccountingSystem.Infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "AccountingSystem.Infrastructure\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIAwwBAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T17:56:47.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\projects\\C#\\New Accounting Project\\Project\\AccountingSystem.API\\appsettings.json",
+              "RelativeDocumentMoniker": "AccountingSystem.API\\appsettings.json",
+              "ToolTip": "D:\\projects\\C#\\New Accounting Project\\Project\\AccountingSystem.API\\appsettings.json",
+              "RelativeToolTip": "AccountingSystem.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-22T17:53:31.202Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

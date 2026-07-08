@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="AccountingSystem.API/AccountingSystem.API.csproj" />
+  <Project Path="AccountingSystem.Application/AccountingSystem.Application.csproj" />
+  <Project Path="AccountingSystem.Domain/AccountingSystem.Domain.csproj" />
+  <Project Path="AccountingSystem.Infrastructure/AccountingSystem.Infrastructure.csproj" />
+</Solution>
