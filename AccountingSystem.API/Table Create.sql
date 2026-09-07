@@ -1,47 +1,44 @@
-﻿CREATE TABLE Users
+CREATE TABLE users
 (
-    Id INT IDENTITY(1,1) PRIMARY KEY,
-    Username NVARCHAR(100) NOT NULL,
-    PasswordHash NVARCHAR(500) NOT NULL,
-    FullName NVARCHAR(200) NULL,
-    IsActive BIT NOT NULL DEFAULT 1,
-    CreatedAt DATETIME2 NOT NULL DEFAULT GETUTCDATE(),
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(100) NOT NULL,
+    password_hash VARCHAR(500) NOT NULL,
+    full_name VARCHAR(200) NULL,
+    is_active BOOLEAN NOT NULL DEFAULT TRUE,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
 
-    CONSTRAINT UQ_Users_Username UNIQUE (Username)
+    CONSTRAINT uq_users_username UNIQUE (username)
 );
-GO
 
-CREATE TABLE Roles
+CREATE TABLE roles
 (
-    Id INT IDENTITY(1,1) PRIMARY KEY,
-    Name NVARCHAR(100) NOT NULL,
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
 
-    CONSTRAINT UQ_Roles_Name UNIQUE (Name)
+    CONSTRAINT uq_roles_name UNIQUE (name)
 );
-GO
 
-CREATE TABLE UserRoles
+CREATE TABLE user_roles
 (
-    UserId INT NOT NULL,
-    RoleId INT NOT NULL,
+    user_id INT NOT NULL,
+    role_id INT NOT NULL,
 
-    CONSTRAINT PK_UserRoles PRIMARY KEY (UserId, RoleId),
+    CONSTRAINT pk_user_roles PRIMARY KEY (user_id, role_id),
 
-    CONSTRAINT FK_UserRoles_Users
-        FOREIGN KEY (UserId)
-        REFERENCES Users(Id),
+    CONSTRAINT fk_user_roles_users
+        FOREIGN KEY (user_id)
+        REFERENCES users (id),
 
-    CONSTRAINT FK_UserRoles_Roles
-        FOREIGN KEY (RoleId)
-        REFERENCES Roles(Id)
+    CONSTRAINT fk_user_roles_roles
+        FOREIGN KEY (role_id)
+        REFERENCES roles (id)
 );
-GO
 
----default user
-INSERT INTO Roles (Name)
+-- default user
+INSERT INTO roles (name)
 VALUES ('Admin');
-INSERT INTO Roles (Name)
-VALUES 
+INSERT INTO roles (name)
+VALUES
     ('Manager'),
     ('Accountant'),
     ('Sales'),
@@ -49,27 +46,27 @@ VALUES
     ('User');
 
 
-INSERT INTO Users
+INSERT INTO users
 (
-    Username,
-    PasswordHash,
-    FullName,
-    IsActive
+    username,
+    password_hash,
+    full_name,
+    is_active
 )
 VALUES
 (
     'admin',
     '$2a$11$JENtwlgz1sXI0tCRWfnRqOgGOq3zINlSJEQyFAlV5yVctJfCEUvFO',
     'System Administrator',
-    1
+    TRUE
 );
 
 
-INSERT INTO UserRoles (UserId, RoleId)
+INSERT INTO user_roles (user_id, role_id)
 SELECT
-    u.Id,
-    r.Id
-FROM Users u
-CROSS JOIN Roles r
-WHERE u.Username = 'admin'
-  AND r.Name = 'Admin';
+    u.id,
+    r.id
+FROM users u
+CROSS JOIN roles r
+WHERE u.username = 'admin'
+  AND r.name = 'Admin';
